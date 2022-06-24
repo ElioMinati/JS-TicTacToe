@@ -15,6 +15,10 @@ button:disabled {
     color: black;
 }
 
+button:hover {
+    background-color: rgb(167, 167, 167);
+}
+
 button {
     color: black;
     border-color: black;
@@ -30,5 +34,34 @@ button {
 
 #buttons {
     position: relative;
-    top: 300px;
+    top: -100px;
+}
+
+h1 {
+    font-size: 35px;
+    position: relative;
+    top: -200px;
+    text-shadow: 2px 2px 2px rgb(122, 0, 0),
+                3px 3px 2px rgb(122, 0, 0);
+}
+
+h2 {
+    position: relative;
+    top: -100px;
+    font-size: 150px;
+    text-shadow: 2px 2px 2px rgb(122, 0, 0),
+                4px 4px 2px rgb(122, 0, 0);
+}
+
+.label {
+    color: white;
+    top: -150px;
+    position: relative;
+    text-shadow: 1px 1px 1px rgb(122, 0, 0),
+                2px 2px 1px rgb(122, 0, 0);
+}
+
+select {
+    position: relative;
+    top: -150px;
 }

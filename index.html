@@ -6,6 +6,14 @@
         <script src="js/main.js"></script>
     </head>
     <body>
+        <h2>Tic Tac Toe</h2>
+        <h1>player 1: X</h1>
+        <h1>player 2: O</h1>
+        <p class="label">Select starting player:</p>
+        <select onchange="changeStartingPlayer()" id="starter">
+            <option value='1'>player 1</option>
+            <option value='2'>player 2</option>
+        </select>
         <div id="buttons">
             <button id="1" onclick="addInGrid(1)"></button>
             <button id="2" onclick="addInGrid(2)"></button>

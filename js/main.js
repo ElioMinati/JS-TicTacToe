@@ -1,6 +1,12 @@
 let turn = 0;
 let winInterval;
 
+const changeStartingPlayer = () => {
+    if (document.getElementById('starter').value === '2') {
+        turn = 1;
+    }
+}
+
 const addInGrid = nb => {
     if (document.getElementById(nb).innerHTML) {
         alert('box already filled.');
