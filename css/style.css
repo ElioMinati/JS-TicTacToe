@@ -1,4 +1,24 @@
+html {
+    min-height: 100%;
+    background-image: linear-gradient(to bottom right, rgb(211, 27, 27), rgb(230, 114, 36));
+    background-repeat: no-repeat;
+    font-family: 'Courier New';
+    text-align: center;
+    color: black;
+}
+
+button:disabled {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    border-color: black;
+    background-color: rgb(197, 197, 197);
+    color: black;
+}
+
 button {
+    color: black;
+    border-color: black;
+    background-color: rgb(197, 197, 197);
     width: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -6,4 +26,9 @@ button {
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#buttons {
+    position: relative;
+    top: 300px;
 }

@@ -11,6 +11,7 @@ const addInGrid = nb => {
     } else {
         document.getElementById(nb).innerHTML = 'O';
     }
+    document.getElementById(nb).disabled = true;
     turn++;
     winInterval = setInterval(verifyWinCondition, 100);
 };
