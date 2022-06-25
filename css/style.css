@@ -8,8 +8,8 @@ html {
 }
 
 button:disabled {
-    padding-top: 42px;
-    padding-bottom: 42px;
+    padding-top: 38px;
+    padding-bottom: 62px;
     border-color: black;
     background-color: rgb(197, 197, 197);
     color: black;
@@ -30,6 +30,7 @@ button {
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    max-height: 100px;
 }
 
 #buttons {
@@ -64,4 +65,28 @@ h2 {
 select {
     position: relative;
     top: -150px;
+    border-radius: 2px;
+    border-color: black;
+    background-color: rgb(182, 182, 182);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+
+#reset {
+    position: relative;
+    top: -320px;
+    left: -260px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#winner {
+    position: relative;
+    color: lime;
+    top: -590px;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgb(122, 0, 0),
+                2px 2px 1px rgb(122, 0, 0);
 }
